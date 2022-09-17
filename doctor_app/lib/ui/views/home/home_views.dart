@@ -59,7 +59,7 @@ class HomeViews extends StatelessWidget {
           Center(
             child: SignUpTextField(
             hintText: TextConstant.search,
-         prefeixIcon: Icons.search, suffixIcon: null,
+         prefeixIcon: Icons.search, suffixIcon: Icons.filter_list_outlined
           )
           ),
           SizedBox(height: MediaQuery.of(context).size.height * .24,
